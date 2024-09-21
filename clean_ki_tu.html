@@ -1,0 +1,24 @@
+<script>
+  function cleanBodyHtmlEntities() {
+    const entityMap = {
+      '&#039;': "'",
+      '&quot;': '"',
+      '&amp;': '&',
+      '&lt;': '<',
+      '&gt;': '>',
+      '&nbsp;': ' ',
+    }
+
+    let bodyContent = document.body.innerHTML
+
+    bodyContent = bodyContent.replace(/&#039;|&quot;|&amp;|&lt;|&gt;|&nbsp;/g, function (match) {
+      return entityMap[match] || match
+    })
+
+    document.body.innerHTML = bodyContent
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    cleanBodyHtmlEntities()
+  })
+</script>

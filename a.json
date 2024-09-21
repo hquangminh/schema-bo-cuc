@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://megakorea.vn/#organization",
+      "name": "Vi\u1ec7n Th\u1ea9m M\u1ef9 Qu\u1ed1c T\u1ebf Mega Korea",
+      "sameAs": ["https://www.facebook.com/vtmmegakorea.vn", "https://twitter.com/vtmmegakorea"],
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://megakorea.vn/#logo",
+        "url": "https://megakorea.vn/wp-content/uploads/2023/10/logo-mega-korea-1.jpg",
+        "contentUrl": "https://megakorea.vn/wp-content/uploads/2023/10/logo-mega-korea-1.jpg",
+        "caption": "Vi\u1ec7n Th\u1ea9m M\u1ef9 Qu\u1ed1c T\u1ebf Mega Korea",
+        "inLanguage": "vi",
+        "width": "500",
+        "height": "500"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://megakorea.vn/#website",
+      "url": "https://megakorea.vn",
+      "name": "Vi\u1ec7n Th\u1ea9m M\u1ef9 Qu\u1ed1c T\u1ebf Mega Korea",
+      "alternateName": "Mega Korea",
+      "publisher": { "@id": "https://megakorea.vn/#organization" },
+      "inLanguage": "vi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://megakorea.vn/wp-content/uploads/2024/07/phun-may-cham-hat-ombre.jpg",
+      "url": "https://megakorea.vn/wp-content/uploads/2024/07/phun-may-cham-hat-ombre.jpg",
+      "width": "800",
+      "height": "500",
+      "caption": "Phun m\u00e0y ch\u1ea1m h\u1ea1t ombre",
+      "inLanguage": "vi"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://megakorea.vn/phun-may-cham-hat-ombre/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": "1", "item": { "@id": "https://megakorea.vn", "name": "Home" } },
+        {
+          "@type": "ListItem",
+          "position": "2",
+          "item": { "@id": "https://megakorea.vn/bi-quyet-lam-dep/", "name": "B\u00ed quy\u1ebft l\u00e0m \u0111\u1eb9p" }
+        },
+        {
+          "@type": "ListItem",
+          "position": "3",
+          "item": { "@id": "https://megakorea.vn/bi-quyet-lam-dep/kien-thuc-phun-xam/", "name": "Ki\u1ebfn th\u1ee9c phun x\u0103m" }
+        },
+        {
+          "@type": "ListItem",
+          "position": "4",
+          "item": {
+            "@id": "https://megakorea.vn/phun-may-cham-hat-ombre/",
+            "name": "Phun m\u00e0y ch\u1ea1m h\u1ea1t Ombre l\u00e0 g\u00ec? \u01afu nh\u01b0\u1ee3c \u0111i\u1ec3m v\u00e0 gi\u00e1"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://megakorea.vn/phun-may-cham-hat-ombre/#webpage",
+      "url": "https://megakorea.vn/phun-may-cham-hat-ombre/",
+      "name": "Phun m\u00e0y ch\u1ea1m h\u1ea1t Ombre l\u00e0 g\u00ec? \u01afu nh\u01b0\u1ee3c \u0111i\u1ec3m v\u00e0 gi\u00e1",
+      "datePublished": "2024-07-26T13:15:41+07:00",
+      "dateModified": "2024-09-11T15:10:09+07:00",
+      "isPartOf": { "@id": "https://megakorea.vn/#website" },
+      "primaryImageOfPage": { "@id": "https://megakorea.vn/wp-content/uploads/2024/07/phun-may-cham-hat-ombre.jpg" },
+      "inLanguage": "vi",
+      "breadcrumb": { "@id": "https://megakorea.vn/phun-may-cham-hat-ombre/#breadcrumb" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://megakorea.vn/author/le-thi-toan/",
+      "name": "L\u00ea Th\u1ecb Toan",
+      "url": "https://megakorea.vn/author/le-thi-toan/",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://secure.gravatar.com/avatar/1687b6d2da1a79ade903efe8edfe439d?s=96&amp;d=mm&amp;r=g",
+        "url": "https://secure.gravatar.com/avatar/1687b6d2da1a79ade903efe8edfe439d?s=96&amp;d=mm&amp;r=g",
+        "caption": "L\u00ea Th\u1ecb Toan",
+        "inLanguage": "vi"
+      },
+      "sameAs": ["https://megakorea.vn/", "https://www.facebook.com/profile.php?id=100031484116370"],
+      "worksFor": { "@id": "https://megakorea.vn/#organization" }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "Phun m\u00e0y ch\u1ea1m h\u1ea1t Ombre l\u00e0 g\u00ec? \u01afu nh\u01b0\u1ee3c \u0111i\u1ec3m v\u00e0 gi\u00e1",
+      "keywords": "phun m\u00e0y ch\u1ea1m h\u1ea1t ombre",
+      "datePublished": "2024-07-26T13:15:41+07:00",
+      "dateModified": "2024-09-11T15:10:09+07:00",
+      "articleSection": "B\u00ed quy\u1ebft l\u00e0m \u0111\u1eb9p, Ki\u1ebfn th\u1ee9c phun x\u0103m",
+      "author": { "@id": "https://megakorea.vn/author/le-thi-toan/", "name": "L\u00ea Th\u1ecb Toan" },
+      "publisher": { "@id": "https://megakorea.vn/#organization" },
+      "description": "Phun m\u00e0y ch\u1ea1m h\u1ea1t Ombre t\u1ea1i Mega Korea gi\u00fap b\u1ea1n s\u1edf h\u1eefu h\u00e0ng ch\u00e2n m\u00e0y \u0111\u1eb9p chu\u1ea9n t\u1ef1 nhi\u00ean v\u00e0 h\u00e0i ho\u00e0 v\u1edbi khu\u00f4n m\u1eb7t. Tham kh\u1ea3o b\u00e0i vi\u1ebft ngay \u0111\u1ec3 bi\u1ebft th\u00eam chi ti\u1ebft.",
+      "name": "Phun m\u00e0y ch\u1ea1m h\u1ea1t Ombre l\u00e0 g\u00ec? \u01afu nh\u01b0\u1ee3c \u0111i\u1ec3m v\u00e0 gi\u00e1",
+      "@id": "https://megakorea.vn/phun-may-cham-hat-ombre/#richSnippet",
+      "isPartOf": { "@id": "https://megakorea.vn/phun-may-cham-hat-ombre/#webpage" },
+      "image": { "@id": "https://megakorea.vn/wp-content/uploads/2024/07/phun-may-cham-hat-ombre.jpg" },
+      "inLanguage": "vi",
+      "mainEntityOfPage": { "@id": "https://megakorea.vn/phun-may-cham-hat-ombre/#webpage" }
+    }
+  ]
+}

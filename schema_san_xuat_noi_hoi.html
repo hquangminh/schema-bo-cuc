@@ -1,0 +1,75 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Check if the current pathname matches the desired path
+    if (window.location.pathname === '/vn/san-xuat-noi-hoi') {
+      // Create a new script element for the JSON-LD schema
+      const schemaScript = document.createElement('script')
+      schemaScript.type = 'application/ld+json'
+      schemaScript.text = JSON.stringify({
+        '@context': 'http://schema.org',
+        '@type': 'CollectionPage',
+        url: 'https://divigroup.com.vn/vn/san-xuat-noi-hoi',
+        name: 'Sản Xuất Nồi Hơi',
+        description:
+          'Các sản phẩm nồi hơi chất lượng cao do DIVI Group sản xuất, bao gồm các hệ thống nồi hơi tầng sôi đốt sinh khối, nồi dầu tải nhiệt đốt sinh khối, nồi hơi đốt nhiên liệu lỏng',
+        inLanguage: 'vi',
+        mainEntity: {
+          '@type': 'ItemList',
+          itemListElement: [
+            {
+              '@type': 'ItemPage',
+              url: 'https://divigroup.com.vn/vn/noi-hoi-tang-soi-dot-sinh-khoi.html',
+              name: 'Nồi hơi tầng sôi đốt sinh khối',
+              description: 'Nồi hơi tầng sôi đốt sinh khối của Tập đoàn DIVI là lựa chọn hoàn hảo cho các ngành công nghiệp hiện đại.',
+            },
+            {
+              '@type': 'ItemPage',
+              url: 'https://divigroup.com.vn/vn/noi-dau-tai-nhiet-dot-sinh-khoi.html',
+              name: 'Nồi dầu tải nhiệt đốt sinh khối',
+              description:
+                'Nồi dầu tải nhiệt đốt sinh khối Tập đoàn DIVI tiết kiệm nhiên liệu, hiệu suất cao, giải pháp bền vững cho ngành công nghiệp Việt Nam.',
+            },
+            {
+              '@type': 'ItemPage',
+              url: 'https://divigroup.com.vn/vn/noi-hoi-dot-nhien-lieu-long.html',
+              name: 'Nồi hơi đốt nhiên liệu lỏng',
+              description:
+                'Lò hơi đốt nhiên liệu lỏng giúp tiết kiệm năng lượng, tối ưu hóa chi phí vận hành và bảo vệ môi trường. Tìm hiểu ngay giải pháp cho ngành công nghiệp của bạn!',
+            },
+          ],
+        },
+        '@type': 'CreativeWorkSeries',
+        name: 'Sản Xuất Nồi Hơi',
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: '4.5',
+          bestRating: '5',
+          ratingCount: '10',
+        },
+        breadcrumb: {
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            {
+              '@type': 'ListItem',
+              position: 1,
+              item: {
+                '@id': 'https://divigroup.com.vn',
+                name: 'DIVI Group',
+              },
+            },
+            {
+              '@type': 'ListItem',
+              position: 2,
+              item: {
+                '@id': 'https://divigroup.com.vn/vn/san-xuat-noi-hoi',
+                name: 'Sản Xuất Nồi Hơi',
+              },
+            },
+          ],
+        },
+      })
+      // Append the script to the document head
+      document.head.appendChild(schemaScript)
+    }
+  })
+</script>

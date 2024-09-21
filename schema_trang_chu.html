@@ -1,0 +1,142 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Create the script element
+    const scriptElement = document.createElement('script')
+    scriptElement.setAttribute('type', 'application/ld+json')
+
+    // Add the JSON-LD schema content as a string
+    scriptElement.text = `
+{
+"@context": "https://schema.org",
+"@graph": [
+{
+  "@type": "CreativeWorkSeries",
+  "name": "Divi Group",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.2",
+    "bestRating": "5",
+    "ratingCount": "16"
+  }
+},
+{
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://divigroup.com.vn/",
+        "name": "Divi Group"
+      }
+    }
+  ]
+},
+{
+  "@type": "Organization",
+  "name": "Divi Group",
+  "url": "https://divigroup.com.vn/",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+84942488818",
+      "contactType": "customer service",
+      "email": "info@martech.com.vn",
+      "areaServed": ["VN", "En", "CN", "KR"],
+      "availableLanguage": ["vietnamese", "english", "chinese", "korean"]
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/diviboiler/",
+    "https://www.instagram.com/divigroupofficial/",
+    "https://www.youtube.com/@DIVIgroup",
+    "https://x.com/GroupDivi35953/",
+    "https://www.pinterest.com/divigroupofficial/",
+    "www.linkedin.com/in/divi-group",
+    "https://www.reddit.com/user/divigroup/",
+    "https://www.tumblr.com/blog/divigroup",
+    "https://soundcloud.com/divigroupofficial",
+    "https://issuu.com/divigroupofficial",
+    "https://bit.ly/m/divigroup",
+    "https://bit.ly/m/DIVI-Group",
+    "https://www.quora.com/profile/DIVI-Group-1",
+    "https://divigroup.livejournal.com/",
+    "https://www.ted.com/profiles/47728076",
+    "about.me/divigroup",
+    "https://divigroup.blogspot.com/2024/09/divi-group-noi-hoi-inh-viet.html",
+    "https://maps.app.goo.gl/zTKErBoA4DDKcvLq7"
+  ]
+},
+{
+  "@type": "LocalBusiness",
+  "name": "Divi Group",
+  "image": "https://divigroup.com.vn/vnt_upload/weblink/logo_2.png",
+  "url": "https://divigroup.com.vn/",
+  "telephone": "+84942488818",
+  "alternateName": "TẬP ĐOÀN DIVI",
+  "description": "Divi Group cung cấp giải pháp toàn diện cho nồi hơi công nghiệp hay còn gọi là nồi hơi công nghiệp, đảm bảo chất lượng và hiệu suất tối ưu, khẳng định uy tín thương hiệu trong ngành công nghiệp năng lượng.",
+  "logo": "https://divigroup.com.vn/vnt_upload/weblink/logo_2.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "588 Phạm Văn Chiêu, phường 16, Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "addressLocality": "Quận Gò Vấp, Thành phố Hồ Chí Minh",
+    "postalCode": "71400",
+    "addressCountry": "VN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "10.8521779",
+    "longitude": "106.66007"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "http://schema.org/Monday",
+        "http://schema.org/Tuesday",
+        "http://schema.org/Wednesday",
+        "http://schema.org/Thursday",
+        "http://schema.org/Friday",
+        "http://schema.org/Saturday",
+        "http://schema.org/Sunday"
+      ],
+      "opens": "07:30",
+      "closes": "18:00"
+    }
+  ],
+  "priceRange": "1000000000VND - 400000000000VND"
+},
+{
+  "@type": "SiteNavigationElement",
+  "name": [
+    "TRANG CHỦ", "VỀ CHÚNG TÔI", "MẢNG KINH DOANH", "DỰ ÁN ĐÃ THỰC HIỆN", "TIN TỨC", "TÀI LIỆU", "LIÊN HỆ"
+  ],
+  "url": [
+    "https://divigroup.com.vn/",
+    "https://divigroup.com.vn/vn/gioi-thieu.html",
+    "https://divigroup.com.vn/vn/san-pham.html",
+    "https://divigroup.com.vn/vn/du-an.html",
+    "https://divigroup.com.vn/vn/tin-tuc.html",
+    "https://divigroup.com.vn/vn/tai-lieu.html",
+    "https://divigroup.com.vn/vn/lien-he.html"
+  ]
+},
+{
+  "@type": "WebSite",
+  "name": "Divi Group",
+  "alternateName": "Divi Group",
+  "url": "https://divigroup.com.vn/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://divigroup.com.vn/vn/tim-kiem.html?search_term_string={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+]
+}
+`
+
+    // Append the script to the head of the document
+    document.head.appendChild(scriptElement)
+  })
+</script>
